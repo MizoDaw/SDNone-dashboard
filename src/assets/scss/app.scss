@@ -1,0 +1,21 @@
+@import "./bootstrap.scss";
+@import "./components.scss";
+@import "./bootstrap-extended.scss";
+@import "./colors.scss";
+@import "./iconfont.scss";
+@import "./custom-rtl.scss";
+@import "./pages/order.scss";
+
+
+
+    textarea{
+        
+        border-radius: 6px;
+        padding: 4px;
+        outline: none;
+        border: 1px solid rgb(203, 203, 203) ;
+        &:focus{
+            border:1px solid  var(--primary);
+        }
+    }
+    
