@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Disc, X, Circle } from "react-feather";
 import classnames from "classnames";
-import LOGO from "assets/LogoBlack.png";
 import { useDirection } from "utility/context/Layout";
 
 const SidebarHeader = ({
@@ -31,10 +30,10 @@ const SidebarHeader = ({
                   justifyContent: "center",
                 }}
               >
-                <img style={{width:"70px",height:"25px"}} width="150" height="50"  src={LOGO} alt="" />
+                <img style={{width:"70px",height:"25px"}} width="150" height="50"  src="BlackLogo.png" alt="" />
               </div>
             ) : (
-              <img width="50" style={{...logoStyles,objectFit:"contain"}} src={LOGO} alt="" />
+              <img width="50" style={{...logoStyles,objectFit:"contain"}} src="BlackLogo.png" alt="" />
             )}
           </NavLink>
 

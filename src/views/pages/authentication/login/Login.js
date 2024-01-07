@@ -42,7 +42,7 @@ const Login = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img width="100%" src={LOGO} alt="logo" />
+                  <img width="100%" src="BlackLogo.png" alt="logo" />
                 </a>
               </div>
             </Col>

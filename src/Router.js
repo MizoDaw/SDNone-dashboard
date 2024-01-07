@@ -174,12 +174,13 @@ class AppRouter extends React.Component {
             path="/services/Third"
             component={ThirdSevice}
             isPrivate
-          /> <AppRoute
+          />
+           {/* <AppRoute
             exact
             path="/services/Fourth"
             component={FourthSevice}
             isPrivate
-          />
+          /> */}
            <AppRoute
             exact
             path="/services/Fifth"
@@ -238,12 +239,12 @@ class AppRouter extends React.Component {
             isPrivate
           />
           
-          <AppRoute
+          {/* <AppRoute
             exact
             path="/categories"
             component={CategoriesPage}
             isPrivate
-          /> 
+          />  */}
            {/* <AppRoute
             exact
             path="/subcategories"
